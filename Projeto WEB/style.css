@@ -1,0 +1,236 @@
+body{
+    background-color: #201b2c;
+}
+ 
+h1{
+    color:#faebd7;
+    font-family:fantasy;
+    background-color: #ca0000;
+}
+
+
+
+.banner-inicial
+{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-patch
+{
+    color: #ff5151;
+    text-align: left;
+    background-color: #201b2c;
+    margin-top: 50px;
+    margin-left: 220px;
+    margin-right: 200px;
+    font-size: 70px;
+
+}
+
+.conteudo-resumo
+{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    margin: 10px 200px 10px 220px;
+    color: white;
+}
+
+.conteudo-home
+{
+    text-align: justify;
+    margin: 10px 200px 10px 220px;
+    font-size: 20px;
+    color: white;
+}
+
+.conteudo-home-fim
+{
+    text-align: justify;
+    margin: 10px 200px 30px 220px;
+    font-size: 20px;
+    color: white;
+    overflow-x: hidden;
+}
+
+.valorant-ep
+{
+    margin: 30px 200px 20px 220px;
+}
+
+.subtitulo-patch
+{
+    text-align: left;
+    color: #ff5151;
+    margin-top: 50px;
+    margin-left: 220px;
+    font-size: 32px;
+}
+
+.background-passe
+{
+    margin: 30px 200px 10px 270px;
+}
+
+.referencia-riot
+{
+    color: #ff5151;
+    text-decoration: none;
+}
+
+.banner
+{
+    width: 1280px;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-home-agente
+{
+    text-align: justify;
+    margin: 10px 600px 50px 220px;
+    font-size: 20px;
+    color: white;
+    overflow-x: hidden;
+
+}
+
+.agente-home
+{
+    height: 700px;
+    margin-left: 700px;
+    margin-top: -440px;
+    overflow-x: hidden;
+}
+
+.subtitulo-home
+{
+    color: gray;
+    margin-top: 20px;
+    margin-left: 220px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.button-agentes
+{
+    font-family: fantasy;
+    background-color: rgb(247, 88, 88);
+    color: black;
+    font-size: 32px;
+    text-decoration: none;
+    margin-left: 300px;
+    padding: 0px 3px 0px 3px;
+}
+
+.button-inscricao
+{
+    text-decoration: none;
+    color: white;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+#menu-h ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: #000000;
+    text-align: center;
+    font-family: fantasy;
+    color: white;
+}
+ 
+#menu-h ul li{
+    display: inline;
+}
+ 
+#menu-h ul li a{
+    color: #faebd7;
+    text-decoration: none;
+    padding: 20px;
+    transition: background .3s;
+    display: inline-block;
+}
+ 
+#menu-h ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(128, 128, 128);
+    text-decoration: underline red;
+}
+ 
+footer{
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 40px;
+    color: #ffffff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+ 
+.footer-bottom{
+    background: #000000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
